@@ -1,0 +1,96 @@
+.row { position: relative; }
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li{
+    display: inline;
+    margin: 0 10px 00;
+}
+
+#barraNav{
+    list-style: none;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+
+#Continuar{
+    position: absolute;
+    right: 50;
+    width: 100px;
+    height: 120px;
+}
+
+#Atras{
+    left: 50;
+    width: 100px;
+    height: 120px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+button:disabled{
+    background-color: #ffa040;
+    color:black;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+
+#section1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+form{
+    text-align: center;
+    line-height: 2.5;
+}
+
+#name,#surname,#date,#dir,#cp,#pro,#mun {
+    font-weight: bold;
+    color:#5d5d5d;
+}
+
+#errorN, #errorTotal, #errorA, #errorD, #errorCP, #errorPro, #errorM{
+    background-color: lightgrey;
+    color: #ff4d4d;
+    border:solid;
+    border-color: red;
+    border-width: 1px;
+    text-align: center;
+}
+
+#datos{
+    text-align: center;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pag3{
+    text-align: center;
+}
+
+#pag4{
+    text-align: center;
+    font-weight: bold;
+}
