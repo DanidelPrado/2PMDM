@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Base de código para el ejercicio 1</title>
+    <link rel='stylesheet' href='./assets/css/index.css' />
+</head>
+
+<body>
+    <div class='input-container'>
+        <input id="filtro" onkeyup="filterOnKeyUp()" type='text' value='' placeholder='Por favor, escribe una letra'
+            maxlength='1' />
+    </div>
+    <div id="texto" class='text-container'>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit gravida cras proin justo, diam pulvinar in leo aenean
+        morbi
+        nunc lobortis nibh. Sollicitudin mattis turpis neque condimentum posuere volutpat dignissim cras, platea egestas
+        pharetra etiam sagittis a et, habitasse placerat mi malesuada facilisis velit ligula. Lacinia cras justo cum
+        viverra
+        gravida egestas neque dictum, auctor sociosqu mauris lacus erat placerat condimentum, varius fames praesent
+        laoreet
+        est donec suscipit.
+    </div>
+    <div id='buttons-container'>
+
+    </div>
+    <div class="container">
+        <div class='image-container'>
+            <div id="arriba" class="image-container1">
+                <img id="imgJS"
+                    src='https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg'
+                    width='95' height="90" />
+            </div>
+            <div id="centro" class="image-container1">
+
+            </div>
+            <div id="abajo" class="image-container1">
+
+            </div>
+        </div>
+        <div class="directions-container">
+            <button type="button" onclick="moverImgArriba()" value="subir" id="bSubir">Subir Imagen</button>
+            <button type="button" onclick="moverImgAbajo()" value="bajar" id="bBajar">Bajar Imagen</button>
+        </div>
+    </div>
+    <form action="" method="POST" id="myForm" class="form-container">
+        <h3>Formulario</h3>
+        <div class='field-container'>
+            <label for="Nombre">Nombre:</label><input type='text' name="Nombre" placeholder='Ej.: Fran' />
+        </div>
+        <div class='field-container'>
+            <label for="Edad">Edad:</label><input type='text' name="Edad" placeholder='Ej: 45' maxlength='2' />
+        </div>
+        <div class='form-actions'>
+            <button type="submit" value="Convertir" id="Convertir">Convertir en JSON</button>
+        </div>
+    </form>
+    <div class='result-container'>
+        <p id='json-result'>Aquí debe ir el resultado del formulario en formato json</p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

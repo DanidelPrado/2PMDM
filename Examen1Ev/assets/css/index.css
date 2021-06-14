@@ -1,0 +1,91 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 1em;
+}
+
+.input-container input {
+    width: 10rem;
+}
+
+.text-container {
+    width: 60%;
+    padding: 2em;
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container > div {
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.image-container1 {
+    height: 90px;
+    width: 95px;
+    border: 2px solid blue;
+}
+
+.direction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 2rem;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.field-container label {
+    width: 5em;
+}
+
+.form-actions {
+    display: flex;
+    flex-direction: row;
+    margin-left: 88px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    border: dotted 1px black;
+}
+
+.result-container p {
+    font-size: 1rem;
+    color: lightgray;
+}

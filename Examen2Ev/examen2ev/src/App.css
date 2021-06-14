@@ -1,0 +1,11 @@
+.main-screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+.navigation {
+  padding: 0.75em;
+  margin: auto;
+}
