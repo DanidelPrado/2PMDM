@@ -10,7 +10,7 @@ class EXSecondView extends React.Component{
                 <h1>Welcome to the second view!</h1>
                 <h2>Well done!</h2>
                 <div className="navigation">
-                <Link to={"/"} className="h1">Ir al SecondView</Link>
+                <Link to={"/"} className="h1">Ir a la Pantalla Principal</Link>
                 </div>
             </div>
         )
